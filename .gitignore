@@ -1,0 +1,32 @@
+# Root ignores (monorepo)
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Frontend
+web/node_modules/
+web/dist/
+web/dist-ssr/
+web/.tanstack/
+web/*.local
+
+# Backend
+backend/vendor/
+backend/node_modules/
+backend/public/build/
+backend/public/hot
+backend/storage/logs/
+backend/storage/*.key
+
+# Local environment secrets
+backend/.env
+web/.env
+
+# Local SQLite database
+backend/database/*.sqlite
